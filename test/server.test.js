@@ -10,7 +10,7 @@ const mockUser = {
     preferences:['movies', 'comics']
 };
 
-let token = '';
+let token = process.env.NEWS;
 
 // Auth tests
 
